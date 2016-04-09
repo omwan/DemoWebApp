@@ -4,7 +4,7 @@ function myFunction() {
 }
 
 $(document).ready(function(){
-    $.get('http://api.openweathermap.org/data/2.5/forecast/city?id=524901&APPID=ff51f31c249d0248530b15e67bb1cd96', function(data) {
-        $('#content').append(data.city.name);
+    $.get('http://api.openweathermap.org/data/2.5/weather?id=2172797&APPID=ff51f31c249d0248530b15e67bb1cd96', function(data) {
+        $('#content').append(data.sys.name);
     })
 })
