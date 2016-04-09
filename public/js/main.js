@@ -5,6 +5,6 @@ function myFunction() {
 //    node.appendChild(textnode);                            
 //    document.getElementById("demo").innerHTML = "NEWWW PARAGRAPH #javascript #swag";
 //    document.getElementById("demo").appendChild(node);
-    $('#name').append('<p>NEWWW PARAGRAPH #javascript #swag</p>')
+    $('#demo').append('<p>NEWWW PARAGRAPH #javascript #swag</>')
 }
 
