@@ -1,5 +1,5 @@
 
 function myFunction() {
-  document.getElementById("demo").append("<p>NEWWW PARAGRAPH #javascript #swag</p>");
+  $('#demo').append($"<p>NEWWW PARAGRAPH #javascript #swag</p>");
 }
 
