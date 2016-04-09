@@ -1,10 +1,10 @@
 
 function myFunction() {
-//    var node = document.createElement("LI");                
-//    var textnode = document.createTextNode("NEWWW PARAGRAPH #javascript #swag");         
-//    node.appendChild(textnode);                            
-//    document.getElementById("demo").innerHTML = "NEWWW PARAGRAPH #javascript #swag";
-//    document.getElementById("demo").appendChild(node);
     $('#demo').append('<p>NEWWW PARAGRAPH #javascript #swag</>')
 }
 
+$(document).ready(function(){
+    $.get('http://api.openweathermap.org/data/2.5/forecast/city?id=524901&APPID=ff51f31c249d0248530b15e67bb1cd96', function(data) {
+        $('#demo').append(data);
+    })
+})
