@@ -1,6 +1,5 @@
 
 function myFunction() {
-    var text = $("NEWWW PARAGRAPH #javascript #swag");
-    $('#demo').append(text);
+  document.getElementById("demo").innerHTML = "NEWWW PARAGRAPH #javascript #swag";
 }
 
